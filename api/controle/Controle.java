@@ -18,7 +18,7 @@ public class Controle {
     @Autowired
     private Repositorio acao;
 
-    @PostMapping("/pessoas")
+    @PostMapping("/api")
     public Pessoa cadastrar(@RequestBody Pessoa obj){
         return acao.save(obj);
     }
