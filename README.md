@@ -1,4 +1,4 @@
-## Como configurar este projeto na IDE VS Code
+## Configurando o projeto na IDE VS Code
 
 ### 1. Criar um projeto Spring Boot no VS Code
 1. Apertar Ctrl+Shift+P
