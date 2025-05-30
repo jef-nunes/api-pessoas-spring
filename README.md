@@ -13,14 +13,14 @@ spring-boot-starter-data-jpa
 
 ### 3. Editar o arquivo resources/application.properties
 
-Altera a estrutura da tabela caso a entidade tenha mudanças
+Altera a estrutura da tabela caso a entidade tenha mudanças <br>
 `spring.jpa.hibernate.ddl-auto=update`
 
-Acesso ao banco de dados
+Acesso ao banco de dados <br>
 `spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/api_spring`
 
-Usuário do banco de dados
+Usuário do banco de dados <br>
 `spring.datasource.username=root`
 
-Senha do banco de dados
+Senha do banco de dados <br>
 `spring.datasource.password=`
