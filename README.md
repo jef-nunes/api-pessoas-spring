@@ -1,0 +1,26 @@
+## Como configurar este projeto na IDE VS Code
+
+### Para criar um projeto Spring Boot no VS Code
+1. Apertar Ctrl+Shift+P
+2. Selecionar "Spring Initializr: Create a Maven Project"
+3. Terminar de configurar o projeto
+
+### Copiar o arquivo pom.xml / adicionar as dependências
+mysql-connector-java
+spring-boot-devtools
+spring-boot-starter-web
+spring-boot-starter-data-jpa
+
+### Editar o arquivo resources/application.properties
+
+Altera a estrutura da tabela caso a entidade tenha mudanças
+`spring.jpa.hibernate.ddl-auto=update`
+
+Acesso ao banco de dados
+`spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/api_spring`
+
+Usuário do banco de dados
+`spring.datasource.username=root`
+
+Senha do banco de dados
+`spring.datasource.password=`
