@@ -6,10 +6,10 @@
 3. Terminar de configurar o projeto
 
 ### 2. Copiar o arquivo pom.xml / adicionar as dependências
-mysql-connector-java
-spring-boot-devtools
-spring-boot-starter-web
-spring-boot-starter-data-jpa
+* mysql-connector-java
+* spring-boot-devtools
+* spring-boot-starter-web
+* spring-boot-starter-data-jpa
 
 ### 3. Editar o arquivo resources/application.properties
 
