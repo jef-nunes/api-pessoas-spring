@@ -5,7 +5,7 @@
 2. Selecionar "Spring Initializr: Create a Maven Project"
 3. Terminar de configurar o projeto
 
-### 2. Copiar o arquivo pom.xml / adicionar as dependências
+### 2. Clonar o arquivo pom.xml / adicionar as dependências
 * mysql-connector-java
 * spring-boot-devtools
 * spring-boot-starter-web
